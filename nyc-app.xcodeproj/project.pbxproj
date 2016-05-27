@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0011DB4F1CF7F9FC00A14CED /* PopulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0011DB4E1CF7F9FC00A14CED /* PopulationController.swift */; };
+		0011DB5A1CF822C300A14CED /* BlurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0011DB591CF822C300A14CED /* BlurImage.swift */; };
 		00190AAC1CF5084200858AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00190AAB1CF5084200858AF5 /* AppDelegate.swift */; };
 		00190AAE1CF5084200858AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00190AAD1CF5084200858AF5 /* ViewController.swift */; };
-		00190AB11CF5084200858AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00190AAF1CF5084200858AF5 /* Main.storyboard */; };
 		00190AB31CF5084200858AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00190AB21CF5084200858AF5 /* Assets.xcassets */; };
 		00190AB61CF5084300858AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00190AB41CF5084300858AF5 /* LaunchScreen.storyboard */; };
 		00190AC11CF5084300858AF5 /* nyc_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00190AC01CF5084300858AF5 /* nyc_appTests.swift */; };
 		00190ACC1CF5084300858AF5 /* nyc_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00190ACB1CF5084300858AF5 /* nyc_appUITests.swift */; };
+		00190ADA1CF54F6300858AF5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00190AD91CF54F6300858AF5 /* Box.swift */; };
+		00190ADC1CF551EE00858AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00190ADB1CF551EE00858AF5 /* Main.storyboard */; };
+		00190ADE1CF5760F00858AF5 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00190ADD1CF5760F00858AF5 /* VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0011DB4E1CF7F9FC00A14CED /* PopulationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationController.swift; sourceTree = "<group>"; };
+		0011DB591CF822C300A14CED /* BlurImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurImage.swift; sourceTree = "<group>"; };
 		00190AA81CF5084100858AF5 /* nyc-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nyc-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00190AAB1CF5084200858AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00190AAD1CF5084200858AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00190AB01CF5084200858AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00190AB21CF5084200858AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00190AB51CF5084300858AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00190AB71CF5084300858AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		00190AC71CF5084300858AF5 /* nyc-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nyc-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00190ACB1CF5084300858AF5 /* nyc_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nyc_appUITests.swift; sourceTree = "<group>"; };
 		00190ACD1CF5084300858AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00190AD91CF54F6300858AF5 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		00190ADB1CF551EE00858AF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00190ADD1CF5760F00858AF5 /* VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0011DB521CF7FA8B00A14CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0011DB591CF822C300A14CED /* BlurImage.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0011DB531CF7FA9000A14CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00190ADB1CF551EE00858AF5 /* Main.storyboard */,
+				00190AB41CF5084300858AF5 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0011DB541CF7FA9A00A14CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00190AAD1CF5084200858AF5 /* ViewController.swift */,
+				00190ADD1CF5760F00858AF5 /* VC.swift */,
+				0011DB4E1CF7F9FC00A14CED /* PopulationController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		00190A9F1CF5084100858AF5 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +132,12 @@
 		00190AAA1CF5084100858AF5 /* nyc-app */ = {
 			isa = PBXGroup;
 			children = (
+				0011DB531CF7FA9000A14CED /* View */,
+				0011DB541CF7FA9A00A14CED /* Controller */,
+				0011DB521CF7FA8B00A14CED /* Model */,
 				00190AAB1CF5084200858AF5 /* AppDelegate.swift */,
-				00190AAD1CF5084200858AF5 /* ViewController.swift */,
-				00190AAF1CF5084200858AF5 /* Main.storyboard */,
+				00190AD91CF54F6300858AF5 /* Box.swift */,
 				00190AB21CF5084200858AF5 /* Assets.xcassets */,
-				00190AB41CF5084300858AF5 /* LaunchScreen.storyboard */,
 				00190AB71CF5084300858AF5 /* Info.plist */,
 			);
 			path = "nyc-app";
@@ -230,8 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00190AB61CF5084300858AF5 /* LaunchScreen.storyboard in Resources */,
+				00190ADC1CF551EE00858AF5 /* Main.storyboard in Resources */,
 				00190AB31CF5084200858AF5 /* Assets.xcassets in Resources */,
-				00190AB11CF5084200858AF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00190ADE1CF5760F00858AF5 /* VC.swift in Sources */,
+				00190ADA1CF54F6300858AF5 /* Box.swift in Sources */,
+				0011DB4F1CF7F9FC00A14CED /* PopulationController.swift in Sources */,
 				00190AAE1CF5084200858AF5 /* ViewController.swift in Sources */,
 				00190AAC1CF5084200858AF5 /* AppDelegate.swift in Sources */,
+				0011DB5A1CF822C300A14CED /* BlurImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00190AAF1CF5084200858AF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00190AB01CF5084200858AF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00190AB41CF5084300858AF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,6 +516,7 @@
 				00190AD21CF5084300858AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00190AD31CF5084300858AF5 /* Build configuration list for PBXNativeTarget "nyc-appTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +525,7 @@
 				00190AD51CF5084300858AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00190AD61CF5084300858AF5 /* Build configuration list for PBXNativeTarget "nyc-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +534,7 @@
 				00190AD81CF5084300858AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
