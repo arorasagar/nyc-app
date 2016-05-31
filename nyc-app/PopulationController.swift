@@ -11,10 +11,19 @@ import UIKit
 class PopulationController: UIViewController {
 
 
-  
+
+    @IBAction func onBackBtnPressed(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
 
     override func viewDidLoad() {
+        
+        
+        
+
+        
+      
          super.viewDidLoad()
        
         

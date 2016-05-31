@@ -8,6 +8,16 @@
 
 
 import UIKit
+import Accelerate
+import QuartzCore
+import SABlurImageView
+
+
+
+
+
+
+
 
 class BlurImage: UIImageView {
     override func awakeFromNib() {
@@ -15,10 +25,16 @@ class BlurImage: UIImageView {
     }
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+    }
+   
+    override func layoutSubviews() {
         let visualEffect = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
+        visualEffect.alpha = 0.6
         visualEffect.frame = bounds
         addSubview(visualEffect)
     }
     
-
 }
+
+
+

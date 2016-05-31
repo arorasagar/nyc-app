@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MotionBlur.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-nyc-app.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-nyc-appTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-nyc-appUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SABlurImageView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0E6B3DA8860DF035A9201CFFC592ECF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D994520C2B1A4BF52227A94F02A54D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>982470D4C8348426ADAB5233E5A30A07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A32FDBFE5AFD53FC00FC5B4ECA49CC9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D568A8E44C11336200643BB0776EB744</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

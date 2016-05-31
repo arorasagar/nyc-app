@@ -1,0 +1,15 @@
+PODS:
+  - MotionBlur (0.2.0)
+  - SABlurImageView (2.1.1)
+
+DEPENDENCIES:
+  - MotionBlur
+  - SABlurImageView
+
+SPEC CHECKSUMS:
+  MotionBlur: 5dc5583a725f087bdf952278b1c41b7bb7ba5f79
+  SABlurImageView: 60fd7f18c20b4bb2bb6b1e4446464d6a480c5754
+
+PODFILE CHECKSUM: 119a198602eadb5a5c9c5b8e750f5ea64434a241
+
+COCOAPODS: 1.0.0
